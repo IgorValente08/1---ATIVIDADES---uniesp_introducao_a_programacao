@@ -12,6 +12,6 @@ git remote add origin (ADICIONAR PARA QUAL REPEPOSITÓRIO SERÁ ENVIADO OBS: COL
 
 git push --set-upstream origin master (Subir versão para o GIT HUB)
 
-git reflog
+git reflog (verificar versões que foram inseridas)
 
 git reset --hard
