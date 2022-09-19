@@ -1,12 +1,14 @@
-git init
+git init (iniciar um respositório)
 
-git status
+git status (verificar atualização)
 
-git add "nome do arquivo.txt"
+git add "nome do arquivo.txt" (adicionar arquivo no repositório)
 
-git commit -m "commit inicial"
+git add . (adicionar todos os aqruivos no respositório)
 
-git conf --global user.email ""git 
+git commit -m "commit inicial" (criar versões dos códigos)
+
+git conf --global user.email "" 
 
 git remote add origin 
 
