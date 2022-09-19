@@ -8,11 +8,9 @@ git add . (adicionar todos os aqruivos no respositório)
 
 git commit -m "commit inicial" (criar versões dos códigos)
 
-git conf --global user.email "" 
+git remote add origin (ADICIONAR PARA QUAL REPEPOSITÓRIO SERÁ ENVIADO OBS: COLOCAR O LINK DO RESPOSITÓRIO AO LADO)
 
-git remote add origin 
-
-git push --set-upstream origin master
+git push --set-upstream origin master (Subir versão para o GIT HUB)
 
 git reflog
 
