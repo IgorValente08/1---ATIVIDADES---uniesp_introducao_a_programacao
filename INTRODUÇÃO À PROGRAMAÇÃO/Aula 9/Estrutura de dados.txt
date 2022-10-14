@@ -1,0 +1,11 @@
+Estruturas de dados
+
+https://docs.python.org/pt-br/3/tutorial/datastructures.html
+
+tuplas e sequências
+
+https://docs.python.org/pt-br/3/tutorial/datastructures.html#tuples-and-sequences
+
+dicionaries
+
+https://docs.python.org/pt-br/3/tutorial/datastructures.html#dictionaries
