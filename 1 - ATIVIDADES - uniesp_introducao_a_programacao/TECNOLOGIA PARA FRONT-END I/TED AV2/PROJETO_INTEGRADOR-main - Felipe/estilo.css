@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container{
+    display: grid;
+    height: 3300px;
+    width: 1440px;
+    grid-template-columns: 1.5fr 0.75fr 0.75fr 0.75fr 0.75fr 1.5fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"nav nav nav nav2 nav2 nav2"
+                        "main main main main2 main2 main2"
+                        "conteudo1 conteudo1 conteudo1 conteudo1 conteudo1 conteudo1"
+                        "conteudo2 conteudo2 conteudo2 conteudo2 conteudo2 conteudo2"
+                        "conteudo3_1 conteudo3_1 conteudo3_1 conteudo3_2 conteudo3_2 conteudo3_2"
+                        "conteudo3_1 conteudo3_1 conteudo3_1 conteudo3_3 conteudo3_3 conteudo3_3"
+                        "conteudo3_4 conteudo3_4 conteudo3_4 conteudo3_4 conteudo3_4 conteudo3_4"
+                        "conteudo5_1 conteudo5_2 conteudo5_2 conteudo5_2 conteudo5_2 conteudo5_3";
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-weight: 400;
+    width: 100%;
+
+}
+
+.título{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    line-height: .7;
+    margin-left: 70px;
+}
+.título2{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-left: 70px;
+}
+.título3{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.título5{
+    font-size: 20px;
+}
+
+.subtt2{
+    font-size: 32px;
+}
+.subtt3{
+    font-size: 32px;
+    margin-left: 450px;
+}
+.subtt4{
+    font-size: 32px;
+    margin-left: 700px;
+}
+.subtt5{
+    font-size: 32px;
+    margin-left: 70px;
+    text-align: center;
+}
+.subtt6{
+    font-size: 32px;
+    margin-left: 450px;
+}
+.subtt7{
+    font-size: 32px;
+    margin-left: 70px;
+    text-align: center;
+}
+.subtt8{
+    font-size: 32px;
+    margin-left: 70px;
+    text-align: center;
+}
+.container form {
+    padding: 20px 10px 20px 10px;
+    background-color: #FFFFFF;
+    border: 3px solid #84C1D9;
+}
+.button_up::after{
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+
+
+
+
+#nav{
+    background-color: #84C1D9;
+    grid-area: nav;
+}
+#nav2{
+    background-color: #DFF2F2;
+    grid-area: nav2;
+}
+
+#main{
+    background-color: #FFFFFF;
+    grid-area: main;
+    text-align:left;
+}
+#main2{
+    background-color: #FFFFFF;
+    grid-area: main2;
+}
+#conteudo1{
+    background-color: #FFFFFF;
+    grid-area: conteudo1;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+#conteudo2{
+    background-color: #DFF2F2;
+    grid-area: conteudo2;
+    text-align: center;
+}
+#conteudo3_1{
+    background-color: #FFFFFF;
+    grid-area: conteudo3_1
+}
+
+#conteudo3_2{
+    background-color: #FFFFFF;
+    grid-area: conteudo3_2;
+    width: 500px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 165px;
+}
+#conteudo3_3{
+    background-color: #FFFFFF;
+    grid-area: conteudo3_3;
+    margin-top: 225px;
+}
+#conteudo3_4{
+    background-color: #FFFFFF;
+    grid-area: conteudo3_4
+}
+
+/* rodapé */
+
+#conteudo5_1{
+    background-color: #84C1D9;
+    grid-area: conteudo5_1;
+    text-align: center;
+}
+#conteudo5_2{
+    background-color: #DFF2F2;
+    grid-area: conteudo5_2
+}
+#conteudo5_3{
+    background-color: #84C1D9;
+    grid-area: conteudo5_3;
+    text-align: center;
+}
+
+
+
+
+
+#nav2 img{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+#conteudo3_1 img{
+    margin-left: -400px;
+}
+#conteudo3_3 img{
+    margin-left: 150px;
+}
+#conteudo3_4 img{
+    margin-left: 435px;
+}
+#conteudo5_2 img{
+    margin-left: 15px;
+}
+
+.button_up::after{
+    content: "↑";
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+
+.container a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    justify-content:center;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #ffffff;
+    background-color: #84C1D9;
+}
+
+
+
+/*
+<div id="nav">A1</div>
+<div id="nav2">A2</div>
+<div id="main"> B1</div>
+<div id="main2"> B2</div>
+<div id="conteudo1"> C1</div>
+<div id="conteudo2"> D1</div>
+<div id="conteudo3_1">E1</div>
+<div id="conteudo3_2">E2.1</div>
+<div id="conteudo3_3">E2.2</div>
+<div id="conteudo3_4">F1</div>
+<div id="conteudo5_1">G1.1</div>
+<div id="conteudo5_2">G1.2</div>
+<div id="conteudo5_3">G1.3</div> */

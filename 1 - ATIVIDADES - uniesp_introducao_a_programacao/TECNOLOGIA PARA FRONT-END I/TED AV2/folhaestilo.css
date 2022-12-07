@@ -7,6 +7,7 @@ html, body, h1, h3 {
     width: 100%;
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -279,6 +280,8 @@ html, body, h1, h3 {
     align-items: stretch;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
+    
+    
 }
 
 .pginic {
@@ -286,6 +289,8 @@ html, body, h1, h3 {
     font-size: 20px;
     width: 22%;
     height: 100%;
+    
+    
 }
 
 .infosite {
@@ -293,6 +298,7 @@ html, body, h1, h3 {
     font-size: 20px;
     width: 56%;
     height: 100%;
+    
 }
 
 #imgtelef {
@@ -301,6 +307,7 @@ html, body, h1, h3 {
     width: 56%;
     height: 100%;
     align-items: stretch;
+    
 }
 
 .voltop {
@@ -308,23 +315,20 @@ html, body, h1, h3 {
     font-size: 20px;
     width: 22%;
     height: 100%;
-}
-
-.button {
-    cursor: pointer;
-    margin: 4px 2px;
-    padding: 15px 32px;
-    border: 2px solid #dff2f2;
-    border-radius: 12px;
-    transition-duration: .5s;
     text-decoration: none;
-    font-weight: bold;
+    
 }
 
-.button:hover {
-    background-color: white;
-    color: #84c1d9;
+.footer a {
+    text-decoration: none;
+    color: black;
 }
+
+
+
+
+
+
 
 
 
